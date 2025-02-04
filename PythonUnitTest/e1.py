@@ -1,8 +1,5 @@
 # Check prime number
-
-
 import unittest
-
 
 def is_prime(number):
     if number < 2:
@@ -11,7 +8,6 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-
 
 class PrimeNumberTestCase(unittest.TestCase):
     def test_prime_numbers(self):
